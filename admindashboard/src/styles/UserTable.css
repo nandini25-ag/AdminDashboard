@@ -1,0 +1,79 @@
+
+.table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse; /* Add some spacing between the table and other elements */
+}
+
+th {
+    background-color: #504f4f;
+    color: #fff;
+    padding: 12px;
+    text-align: center; /* Center-align text in table header */
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center; /* Center-align text in table cells */
+}
+
+.table th input {
+  margin-right: 5px;
+}
+
+tr:hover {
+    background-color: #afa9a9;
+}
+
+.selected {
+    background-color: #e0e0e0;
+}
+
+.edit,
+.delete {
+    
+    cursor: pointer;
+    background-color: #486ced;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+     text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+/* Add spacing between buttons */
+.edit {
+    margin-right: 5px;
+}
+
+/* Add spacing between columns */
+td:not(:last-child) {
+    margin-right: 10px;
+}
+.delete {
+  background-color: #f44336;
+}
+.edit,
+.save,
+.cancel {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.save {
+    background-color: #008cba; /* Blue */
+}

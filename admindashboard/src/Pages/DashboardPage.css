@@ -1,0 +1,90 @@
+
+
+/* Style for the container */
+.dashboard-container {
+  padding: 35px;
+}
+
+/* Style for the search-delete container */
+.search-delete-container {
+  margin-bottom: 10px;
+}
+
+/* Style for the input container */
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the input element */
+.input-container input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* Style for the delete icon */
+.delete-icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(201, 4, 4); /* You can change the color */
+}
+
+/* Style for the row count container */
+.row-count-container {
+  margin-top: 10px;
+}
+
+/* Style for the row count text */
+.row-count-text {
+  font-size: 16px;
+}
+
+/* Style for the table container */
+.table-container {
+  margin-top: 20px;
+}
+
+/* Additional styles for pagination if needed */
+.pagination-container {
+  margin-top: 10px;
+}
+
+/* Styles for the user table - add more styles based on your design */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+/* Styles for pagination buttons - add more styles based on your design */
+.pagination-btn {
+  background-color: #514caf;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination-btn.active {
+  background-color: #4b45a0;
+}
+
+/* Add more styles as needed */
